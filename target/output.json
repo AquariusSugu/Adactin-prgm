@@ -1,0 +1,1803 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-04T10:30:02.724Z",
+        "line": 14,
+        "name": "Verifying Adactin login with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-login-hotel-details;verifying-adactin-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12423961600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Adactin page",
+            "match": {
+              "location": "LoginStep.user_is_on_the_Adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1519124800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should perform login \"SuganyaAbhijith\" and \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SuganyaAbhijith\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 48
+                }
+              ],
+              "location": "LoginStep.user_should_perform_login_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3454700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should verify after  login \"Hello SuganyaAbhijith!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello SuganyaAbhijith!\"",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginStep.user_should_verify_after_login(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1451366600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the search hotel pageand search using these fields \"Melbourne\",\"Hotel SunShine\",\"Double\",\"2 - Two\",\"03/07/2022\",\"04/07/2022\",\"1 - One\"and \"1- One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"Hotel SunShine\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"03/07/2022\"",
+                  "offset": 110
+                },
+                {
+                  "val": "\"04/07/2022\"",
+                  "offset": 123
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 136
+                },
+                {
+                  "val": "\"1- One\"",
+                  "offset": 149
+                }
+              ],
+              "location": "LoginStep.user_is_on_the_search_hotel_pageand_search_using_these_fields_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5067229400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select hotel",
+            "match": {
+              "location": "LoginStep.user_should_select_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 781876700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user book hotel with these fields\"\u003cFirst Name\u003e\",\"Bala\",\"London\",\"1321243253465475\",\"VISA\",\"December\" ,\"2024\" and \"357\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cFirst Name\u003e\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Bala\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"London\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"1321243253465475\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"December\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"2024\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"357\"",
+                  "offset": 113
+                }
+              ],
+              "location": "LoginStep.user_book_hotel_with_these_fields_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15098710000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should to get the order no",
+            "match": {
+              "location": "LoginStep.user_should_to_get_the_order_no()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-04T10:30:39.077Z",
+        "line": 15,
+        "name": "Verifying Adactin login with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-login-hotel-details;verifying-adactin-login-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9678044400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Adactin page",
+            "match": {
+              "location": "LoginStep.user_is_on_the_Adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1816580700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should perform login \"SuganyaAbhijith\" and \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SuganyaAbhijith\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 48
+                }
+              ],
+              "location": "LoginStep.user_should_perform_login_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 94300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should verify after  login \"Hello SuganyaAbhijith!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello SuganyaAbhijith!\"",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginStep.user_should_verify_after_login(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2797941900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the search hotel pageand search using these fields \"Melbourne\",\"Hotel SunShine\",\"Double\",\"1 - Two\",\"03/07/2022\",\"04/07/2022\",\"1 - One\"and \"3- One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"Hotel SunShine\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"1 - Two\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"03/07/2022\"",
+                  "offset": 110
+                },
+                {
+                  "val": "\"04/07/2022\"",
+                  "offset": 123
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 136
+                },
+                {
+                  "val": "\"3- One\"",
+                  "offset": 149
+                }
+              ],
+              "location": "LoginStep.user_is_on_the_search_hotel_pageand_search_using_these_fields_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5218004100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select hotel",
+            "match": {
+              "location": "LoginStep.user_should_select_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 828081900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user book hotel with these fields\"\u003cFirst Name\u003e\",\"Bala\",\"London\",\"1321243253465475\",\"VISA\",\"December\" ,\"2024\" and \"357\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cFirst Name\u003e\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Bala\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"London\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"1321243253465475\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"December\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"2024\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"357\"",
+                  "offset": 113
+                }
+              ],
+              "location": "LoginStep.user_book_hotel_with_these_fields_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15074045800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should to get the order no",
+            "match": {
+              "location": "LoginStep.user_should_to_get_the_order_no()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-04T10:31:14.492Z",
+        "line": 16,
+        "name": "Verifying Adactin login with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-login-hotel-details;verifying-adactin-login-with-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13216319200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Adactin page",
+            "match": {
+              "location": "LoginStep.user_is_on_the_Adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1653038400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should perform login \"SuganyaAbhijith\" and \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SuganyaAbhijith\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 48
+                }
+              ],
+              "location": "LoginStep.user_should_perform_login_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should verify after  login \"Hello SuganyaAbhijith!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello SuganyaAbhijith!\"",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginStep.user_should_verify_after_login(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1624702500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the search hotel pageand search using these fields \"Melbourne\",\"Hotel SunShine\",\"Double\",\"2 - Two\",\"03/07/2022\",\"04/07/2022\",\"1 - One\"and \"1- One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"Hotel SunShine\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"03/07/2022\"",
+                  "offset": 110
+                },
+                {
+                  "val": "\"04/07/2022\"",
+                  "offset": 123
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 136
+                },
+                {
+                  "val": "\"1- One\"",
+                  "offset": 149
+                }
+              ],
+              "location": "LoginStep.user_is_on_the_search_hotel_pageand_search_using_these_fields_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5153936100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select hotel",
+            "match": {
+              "location": "LoginStep.user_should_select_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 913182600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user book hotel with these fields\"\u003cFirst Name\u003e\",\"Bala\",\"London\",\"1321243253465475\",\"VISA\",\"December\" ,\"2024\" and \"357\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cFirst Name\u003e\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Bala\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"London\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"1321243253465475\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"December\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"2024\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"357\"",
+                  "offset": 113
+                }
+              ],
+              "location": "LoginStep.user_book_hotel_with_these_fields_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15069386400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should to get the order no",
+            "match": {
+              "location": "LoginStep.user_should_to_get_the_order_no()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-04T10:31:52.125Z",
+        "line": 17,
+        "name": "Verifying Adactin login with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-login-hotel-details;verifying-adactin-login-with-valid-credentials;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16536766100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Adactin page",
+            "match": {
+              "location": "LoginStep.user_is_on_the_Adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1629845700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should perform login \"SuganyaAbhijith\" and \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SuganyaAbhijith\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 48
+                }
+              ],
+              "location": "LoginStep.user_should_perform_login_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should verify after  login \"Hello SuganyaAbhijith!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello SuganyaAbhijith!\"",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginStep.user_should_verify_after_login(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4330633800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the search hotel pageand search using these fields \"Melbourne\",\"Hotel SunShine\",\"Double\",\"2 - Two\",\"03/07/2022\",\"05/07/2022\",\"2 - One\"and \"1- One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"Hotel SunShine\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"03/07/2022\"",
+                  "offset": 110
+                },
+                {
+                  "val": "\"05/07/2022\"",
+                  "offset": 123
+                },
+                {
+                  "val": "\"2 - One\"",
+                  "offset": 136
+                },
+                {
+                  "val": "\"1- One\"",
+                  "offset": 149
+                }
+              ],
+              "location": "LoginStep.user_is_on_the_search_hotel_pageand_search_using_these_fields_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6187822000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select hotel",
+            "match": {
+              "location": "LoginStep.user_should_select_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 812546700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user book hotel with these fields\"\u003cFirst Name\u003e\",\"Bala\",\"London\",\"1321243253465475\",\"VISA\",\"December\" ,\"2024\" and \"357\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cFirst Name\u003e\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Bala\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"London\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"1321243253465475\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"December\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"2024\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"357\"",
+                  "offset": 113
+                }
+              ],
+              "location": "LoginStep.user_book_hotel_with_these_fields_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15063969600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should to get the order no",
+            "match": {
+              "location": "LoginStep.user_should_to_get_the_order_no()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-04T10:32:36.689Z",
+        "line": 18,
+        "name": "Verifying Adactin login with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-login-hotel-details;verifying-adactin-login-with-valid-credentials;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13941423900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Adactin page",
+            "match": {
+              "location": "LoginStep.user_is_on_the_Adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1779066500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should perform login \"SuganyaAbhijith\" and \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SuganyaAbhijith\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 48
+                }
+              ],
+              "location": "LoginStep.user_should_perform_login_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should verify after  login \"Hello SuganyaAbhijith!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello SuganyaAbhijith!\"",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginStep.user_should_verify_after_login(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2179961500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the search hotel pageand search using these fields \"Melbourne\",\"Hotel SunShine\",\"Double\",\"2 - Two\",\"03/07/2022\",\"04/07/2022\",\"1 - One\"and \"1- One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"Hotel SunShine\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"03/07/2022\"",
+                  "offset": 110
+                },
+                {
+                  "val": "\"04/07/2022\"",
+                  "offset": 123
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 136
+                },
+                {
+                  "val": "\"1- One\"",
+                  "offset": 149
+                }
+              ],
+              "location": "LoginStep.user_is_on_the_search_hotel_pageand_search_using_these_fields_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5442395700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select hotel",
+            "match": {
+              "location": "LoginStep.user_should_select_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 873967000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user book hotel with these fields\"\u003cFirst Name\u003e\",\"Bala\",\"London\",\"1321243253465475\",\"VISA\",\"December\" ,\"2024\" and \"357\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cFirst Name\u003e\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Bala\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"London\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"1321243253465475\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"December\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"2024\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"357\"",
+                  "offset": 113
+                }
+              ],
+              "location": "LoginStep.user_book_hotel_with_these_fields_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15064206400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should to get the order no",
+            "match": {
+              "location": "LoginStep.user_should_to_get_the_order_no()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-04T10:33:15.973Z",
+        "line": 19,
+        "name": "Verifying Adactin login with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-login-hotel-details;verifying-adactin-login-with-valid-credentials;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 41487498500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Adactin page",
+            "match": {
+              "location": "LoginStep.user_is_on_the_Adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2399990300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should perform login \"SuganyaAbhijith\" and \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SuganyaAbhijith\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 48
+                }
+              ],
+              "location": "LoginStep.user_should_perform_login_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should verify after  login \"Hello SuganyaAbhijith!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello SuganyaAbhijith!\"",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginStep.user_should_verify_after_login(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1830913500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the search hotel pageand search using these fields \"Melbourne\",\"Hotel SunShine\",\"Double\",\"1 - Two\",\"03/07/2022\",\"04/07/2022\",\"1 - One\"and \"1- One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"Hotel SunShine\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"1 - Two\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"03/07/2022\"",
+                  "offset": 110
+                },
+                {
+                  "val": "\"04/07/2022\"",
+                  "offset": 123
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 136
+                },
+                {
+                  "val": "\"1- One\"",
+                  "offset": 149
+                }
+              ],
+              "location": "LoginStep.user_is_on_the_search_hotel_pageand_search_using_these_fields_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6256583400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select hotel",
+            "match": {
+              "location": "LoginStep.user_should_select_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 973485600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user book hotel with these fields\"\u003cFirst Name\u003e\",\"Bala\",\"London\",\"1321243253465475\",\"VISA\",\"December\" ,\"2024\" and \"357\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cFirst Name\u003e\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Bala\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"London\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"1321243253465475\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"December\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"2024\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"357\"",
+                  "offset": 113
+                }
+              ],
+              "location": "LoginStep.user_book_hotel_with_these_fields_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15065564800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should to get the order no",
+            "match": {
+              "location": "LoginStep.user_should_to_get_the_order_no()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-04T10:34:23.988Z",
+        "line": 20,
+        "name": "Verifying Adactin login with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-login-hotel-details;verifying-adactin-login-with-valid-credentials;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17088835800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Adactin page",
+            "match": {
+              "location": "LoginStep.user_is_on_the_Adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2683594300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should perform login \"SuganyaAbhijith\" and \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SuganyaAbhijith\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 48
+                }
+              ],
+              "location": "LoginStep.user_should_perform_login_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should verify after  login \"Hello SuganyaAbhijith!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello SuganyaAbhijith!\"",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginStep.user_should_verify_after_login(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2445736500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the search hotel pageand search using these fields \"Melbourne\",\"Hotel SunShine\",\"Double\",\"2 - Two\",\"03/07/2022\",\"04/07/2022\",\"2 - One\"and \"1- One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"Hotel SunShine\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"03/07/2022\"",
+                  "offset": 110
+                },
+                {
+                  "val": "\"04/07/2022\"",
+                  "offset": 123
+                },
+                {
+                  "val": "\"2 - One\"",
+                  "offset": 136
+                },
+                {
+                  "val": "\"1- One\"",
+                  "offset": 149
+                }
+              ],
+              "location": "LoginStep.user_is_on_the_search_hotel_pageand_search_using_these_fields_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5568331500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select hotel",
+            "match": {
+              "location": "LoginStep.user_should_select_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1008256800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user book hotel with these fields\"\u003cFirst Name\u003e\",\"Bala\",\"London\",\"1321243253465475\",\"VISA\",\"December\" ,\"2024\" and \"357\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cFirst Name\u003e\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Bala\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"London\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"1321243253465475\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"December\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"2024\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"357\"",
+                  "offset": 113
+                }
+              ],
+              "location": "LoginStep.user_book_hotel_with_these_fields_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15074584700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should to get the order no",
+            "match": {
+              "location": "LoginStep.user_should_to_get_the_order_no()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-04T10:35:07.860Z",
+        "line": 21,
+        "name": "Verifying Adactin login with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-login-hotel-details;verifying-adactin-login-with-valid-credentials;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16329652400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Adactin page",
+            "match": {
+              "location": "LoginStep.user_is_on_the_Adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2280183500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should perform login \"SuganyaAbhijith\" and \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SuganyaAbhijith\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 48
+                }
+              ],
+              "location": "LoginStep.user_should_perform_login_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 170900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should verify after  login \"Hello SuganyaAbhijith!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello SuganyaAbhijith!\"",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginStep.user_should_verify_after_login(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1799831400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the search hotel pageand search using these fields \"Melbourne\",\"Hotel SunShine\",\"Double\",\"2 - Two\",\"03/07/2022\",\"04/07/2022\",\"1 - One\"and \"3- One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"Hotel SunShine\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"03/07/2022\"",
+                  "offset": 110
+                },
+                {
+                  "val": "\"04/07/2022\"",
+                  "offset": 123
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 136
+                },
+                {
+                  "val": "\"3- One\"",
+                  "offset": 149
+                }
+              ],
+              "location": "LoginStep.user_is_on_the_search_hotel_pageand_search_using_these_fields_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000934300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select hotel",
+            "match": {
+              "location": "LoginStep.user_should_select_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 863368800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user book hotel with these fields\"\u003cFirst Name\u003e\",\"Bala\",\"London\",\"1321243253465475\",\"VISA\",\"December\" ,\"2024\" and \"357\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cFirst Name\u003e\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Bala\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"London\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"1321243253465475\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"December\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"2024\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"357\"",
+                  "offset": 113
+                }
+              ],
+              "location": "LoginStep.user_book_hotel_with_these_fields_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15071300100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should to get the order no",
+            "match": {
+              "location": "LoginStep.user_should_to_get_the_order_no()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-04T10:35:49.207Z",
+        "line": 22,
+        "name": "Verifying Adactin login with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-login-hotel-details;verifying-adactin-login-with-valid-credentials;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18165407800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Adactin page",
+            "match": {
+              "location": "LoginStep.user_is_on_the_Adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2131200800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should perform login \"SuganyaAbhijith\" and \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SuganyaAbhijith\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 48
+                }
+              ],
+              "location": "LoginStep.user_should_perform_login_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should verify after  login \"Hello SuganyaAbhijith!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello SuganyaAbhijith!\"",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginStep.user_should_verify_after_login(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1813213200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the search hotel pageand search using these fields \"Melbourne\",\"Hotel SunShine\",\"Double\",\"3 - Two\",\"03/07/2022\",\"07/07/2022\",\"1 - One\"and \"1- One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"Hotel SunShine\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"3 - Two\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"03/07/2022\"",
+                  "offset": 110
+                },
+                {
+                  "val": "\"07/07/2022\"",
+                  "offset": 123
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 136
+                },
+                {
+                  "val": "\"1- One\"",
+                  "offset": 149
+                }
+              ],
+              "location": "LoginStep.user_is_on_the_search_hotel_pageand_search_using_these_fields_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4932659900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select hotel",
+            "match": {
+              "location": "LoginStep.user_should_select_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 844143800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user book hotel with these fields\"\u003cFirst Name\u003e\",\"Bala\",\"London\",\"1321243253465475\",\"VISA\",\"December\" ,\"2024\" and \"357\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cFirst Name\u003e\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Bala\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"London\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"1321243253465475\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"December\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"2024\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"357\"",
+                  "offset": 113
+                }
+              ],
+              "location": "LoginStep.user_book_hotel_with_these_fields_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15064495400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should to get the order no",
+            "match": {
+              "location": "LoginStep.user_should_to_get_the_order_no()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-04T10:36:32.159Z",
+        "line": 23,
+        "name": "Verifying Adactin login with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-login-hotel-details;verifying-adactin-login-with-valid-credentials;;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19725640300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Adactin page",
+            "match": {
+              "location": "LoginStep.user_is_on_the_Adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1756623000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should perform login \"SuganyaAbhijith\" and \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SuganyaAbhijith\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"12345678\"",
+                  "offset": 48
+                }
+              ],
+              "location": "LoginStep.user_should_perform_login_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should verify after  login \"Hello SuganyaAbhijith!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello SuganyaAbhijith!\"",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginStep.user_should_verify_after_login(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1523187300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the search hotel pageand search using these fields \"Melbourne\",\"Hotel SunShine\",\"Double\",\"2 - Two\",\"03/07/2022\",\"04/07/2022\",\"1 - One\"and \"1- One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"Hotel SunShine\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"03/07/2022\"",
+                  "offset": 110
+                },
+                {
+                  "val": "\"04/07/2022\"",
+                  "offset": 123
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 136
+                },
+                {
+                  "val": "\"1- One\"",
+                  "offset": 149
+                }
+              ],
+              "location": "LoginStep.user_is_on_the_search_hotel_pageand_search_using_these_fields_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000864600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should select hotel",
+            "match": {
+              "location": "LoginStep.user_should_select_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 901311300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user book hotel with these fields\"\u003cFirst Name\u003e\",\"Bala\",\"London\",\"1321243253465475\",\"VISA\",\"December\" ,\"2024\" and \"357\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cFirst Name\u003e\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Bala\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"London\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"1321243253465475\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"December\"",
+                  "offset": 90
+                },
+                {
+                  "val": "\"2024\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"357\"",
+                  "offset": 113
+                }
+              ],
+              "location": "LoginStep.user_book_hotel_with_these_fields_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15066486200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should to get the order no",
+            "match": {
+              "location": "LoginStep.user_should_to_get_the_order_no()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Adactin Login Hotel details",
+    "description": "",
+    "id": "verifying-adactin-login-hotel-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Login.feature",
+    "tags": []
+  }
+]
